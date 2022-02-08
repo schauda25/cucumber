@@ -1,0 +1,14 @@
+{
+    "testFiles": "**/*.feature",
+    "ignoreTestFile":["*.js"],
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir ": "cypress/resultsmochawesome",
+       "overwrite": false,
+       "html": true,
+       "json": true,
+       "charts": true
+
+   }
+    
+}
