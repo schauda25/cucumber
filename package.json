@@ -6,6 +6,7 @@
   "scripts": {
     "cy:open": "cypress open",
     "cy:run": "cypress run",
+    "cy:dashboard":"cypress run --record -key 1d8e82e3-5af9-45f5-9865-d24d26566600",
     "mochawesome-merge": "npx mochawesome-merge \"cypress/results/mochawesome/*.json\" > mochawesome.json && npx marge mochawesome.json"
   },
   "author": "",
